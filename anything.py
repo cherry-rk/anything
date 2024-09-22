@@ -1,4 +1,6 @@
-def fun(x,y):
+def fun():
+    x = float(input('enter the first number'))
+    y = float(input('enter the second number'))
     return x+y
 num=fun(5,1)
 print(num)
